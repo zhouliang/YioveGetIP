@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-const url = ["Y", "i", "o", "v", "e", ".", "c", "o", "m"]
+const url = ["A", "d", "m", "i", "n", ".", "I", "M"]
 </script>
 
 <style scoped>

@@ -17,13 +17,13 @@ import {h, ref} from "vue";
 const activeKey = ref(null);
 
 const imgUrl = ["h", "t", "t", "p", "s", ":", "/", "/", "s", "t", "a", "t", "i", "c", ".", "2", "g", "e", ".", "o", "r", "g", "/", "i", "m", "a", "g", "e", "/", "2", "0", "2", "4", "/", "0", "3", "/", "6", "8", "5", "e", "f", "9", "f", "1", "2", "2", "1", "c", "b", "0", "d", "0", "4", "7", "d", "3", "4", "7", "d", "6", "0", "5", "8", "9", "1", "1", "e", "e", ".", "p", "n", "g"];
-const homeUrl = ["h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "y", "i", "o", "v", "e", ".", "c", "o", "m"];
+const homeUrl = ["h", "t", "t", "p", "s", ":", "/", "/", "w", "w", "w", ".", "a", "d", "m", "i", "n", ".", "i", "m"];
 
 const menuOptions = [
-    {
-        label: () => h('a', {href: '/'}, [h('img', {src: imgUrl.join(''), width: '100'})]),
-        key: "logo",
-    },
+    // {
+    //     label: () => h('a', {href: '/'}, [h('img', {src: imgUrl.join(''), width: '100'})]),
+    //     key: "logo",
+    // },
     {
         label: () => h('a', {href: homeUrl.join(''), target: '_blank'}, '官方网站'),
         key: 'guan-wang'
